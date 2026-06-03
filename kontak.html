@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - Danz Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar container">
+            <div class="logo">
+                <h2><i class="fa-solid fa-waves-sine"></i> Danz<span>Service</span></h2>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="kontak.html" class="active">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="nav-extra">
+                <button id="dark-mode-toggle"><i class="fa-solid fa-moon"></i></button>
+                <a href="kontak.html" class="btn-nav-kontak">Hubungi Kami</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Hubungi Kontak Kami</h1>
+            <p>Ajukan pertanyaan seputar kerusakan gadget Anda atau langsung booking jadwal servis.</p>
+        </div>
+    </section>
+
+    <section class="contact container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h3>Informasi Workshop</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Jl.kedung Rawan Balong Ampel, Tanjegwagir, Kec. Krembung, Kabupaten Sidoarjo, Jawa Timur</p>
+                <p><i class="fa-solid fa-phone"></i> +62 895-1776-4463</p>
+                <p><i class="fa-solid fa-envelope"></i> danzservice418@gmail.com</p>
+                <p><i class="fa-solid fa-clock"></i> Senin - Minggu: 09.00 - 22.00 WIB</p>
+                <div class="maps-container">
+<div class="maps-container">
+    <iframe 
+        src="https://www.google.com/maps?q=Danz%20service&output=embed"
+        width="100%" 
+        height="250" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+</div>
+</div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Form Konsultasi Cepat</h3>
+                <form id="booking-form">
+                    <input type="text" id="nama" placeholder="Nama Lengkap Anda" required>
+                    <input type="text" id="tipe-hp" placeholder="Merk & Tipe HP " required>
+                    <textarea id="keluhan" placeholder="Tuliskan kronologi atau detail kerusakan HP Anda..." rows="6" required></textarea>
+                    <button type="submit" class="btn-submit">Kirim Pesan Ke WhatsApp <i class="fa-brands fa-whatsapp"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Danz Service.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
